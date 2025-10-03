@@ -1,0 +1,16 @@
+project_id = "gslqcwoebhhcrvaipdgj"
+
+[functions.chat]
+verify_jwt = true
+
+[functions.process-document]
+verify_jwt = false
+
+[functions.document-status]
+verify_jwt = true
+
+[functions.document-chunks]
+verify_jwt = true
+
+[functions.document-query]
+verify_jwt = true
